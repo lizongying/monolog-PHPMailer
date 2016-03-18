@@ -1,5 +1,4 @@
-vendor
-composer.phar
-phpunit.xml
+# Phpstorm
+.idea
+# composer
 composer.lock
-.DS_Store
