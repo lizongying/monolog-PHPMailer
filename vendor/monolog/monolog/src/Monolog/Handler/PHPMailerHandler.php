@@ -7,7 +7,7 @@
 
 namespace Monolog\Handler;
 use Monolog\Handler\AbstractProcessingHandler;
-require dirname(dirname(dirname(dirname(dirname(dirname(__FILE__)))))).'\phpmailer\phpmailer\PHPMailerAutoload.php';
+require dirname(dirname(dirname(dirname(dirname(dirname(__FILE__)))))).'/phpmailer/phpmailer/PHPMailerAutoload.php';
 
 class PHPMailerHandler extends AbstractProcessingHandler
 {
